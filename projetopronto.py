@@ -158,10 +158,6 @@ def cenario_ru():
 
 
 def cenario_dc():
-    global bolsa
-    global carne
-    global missao_carne
-    global missao_carne_cumprida
     print("\nDepartamento de Computação(DC):\n")
     print(r"       /\___/\   _ ")
     print(r"      ( ¬ ^ ¬ ) / / ")
@@ -215,6 +211,7 @@ def cenario_dc():
 
 def cenario_db():
     global missao_planta
+    print("\nDepartamento de Biologia(DB):\n")
     print(r"       /\___/\        _")
     print(r"      ( - ^ - )____  / /")
     print(r"      /            \/ /")
@@ -264,6 +261,7 @@ def cenario_db():
 
 
 def cenario_transrural():
+    print("\nTransrural:\n")
     if missao_planta == False and missao_planta_cumprida == False:
         print ("Você vê um lugar bastante arborizado, o clima é agradável. Há muitas plantas, mas você não reconhece nenhuma.")
         sair()
@@ -287,6 +285,7 @@ def cenario_transrural():
 
 
 def cenario_dq():
+    print("\nDepartamento de Química(DQ):\n")
     print("É o departamento de química, não tem muita coisa pra fazer por aqui...")
     sair()
 
