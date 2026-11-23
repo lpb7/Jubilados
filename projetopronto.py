@@ -162,6 +162,7 @@ def cenario_dc():
     global carne
     global missao_carne
     global missao_carne_cumprida
+    print("\nDepartamento de Computação(DC):\n")
     print(r"       /\___/\   _ ")
     print(r"      ( ¬ ^ ¬ ) / / ")
     print(r"      /       \/ / ")
